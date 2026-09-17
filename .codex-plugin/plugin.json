@@ -1,0 +1,28 @@
+{
+  "name": "mohen-scribe",
+  "version": "0.1.0",
+  "description": "Transcribe audio and video into clean text, with optional speaker labels.",
+  "author": {
+    "name": "Naorem Mohen",
+    "url": "https://github.com/mohenscribe"
+  },
+  "homepage": "https://github.com/mohenscribe/mohen-scribe",
+  "repository": "https://github.com/mohenscribe/mohen-scribe",
+  "license": "MIT",
+  "keywords": ["audio", "video", "transcription", "speech-to-text", "journalism"],
+  "interface": {
+    "displayName": "Mohen Scribe",
+    "shortDescription": "Turn audio and video into clean transcripts.",
+    "longDescription": "Mohen Scribe helps journalists transcribe audio and video, optionally identify speakers, and return clean text for editing.",
+    "developerName": "Naorem Mohen",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/mohenscribe/mohen-scribe",
+    "defaultPrompt": [
+      "Open Mohen Scribe for an audio transcription.",
+      "Transcribe this public media URL with speaker labels."
+    ],
+    "brandColor": "#8B1E2D"
+  },
+  "mcpServers": "./.mcp.json"
+}
