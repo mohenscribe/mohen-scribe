@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mohen-scribe": {
+      "command": "node",
+      "args": ["stdio-server.js"],
+      "env": {
+        "ENABLE_LOCAL_FILES": "true"
+      }
+    }
+  }
+}
